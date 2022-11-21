@@ -1,0 +1,322 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,900;1,300&family=Oswald:wght@200;400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+
+.textoTitulo{
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    font-style: normal;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.iconos {
+    color: #212121;
+    
+    font-size: 6rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+nav a:hover{
+    color: rgb(122, 112, 108);
+}
+
+h2{
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    font-style: normal;
+    text-align: left;
+}
+
+.textoFormulario{
+    color: #0288D1;
+    background-color: #00bbd428;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 2.6rem;
+    font-style: normal;
+    text-align: left;
+
+
+
+}
+
+.textoAzul{
+    color: #0288D1;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 6rem;
+    font-style: normal;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.textoServicios{
+    font-family: 'oswald', sans-serif;
+    color: #757575;
+    font-weight: 200;
+    font-size: 1.3rem;
+    font-style: normal;
+    text-align: left;
+
+}
+
+.textoPreguntas{
+    font-family: 'oswald', sans-serif;
+    color: #757575;
+    font-weight: 200;
+    font-size: 3rem;
+    font-style: normal;
+    text-align: left;
+
+}
+
+
+
+.bannerInicio{
+    background-image: url(../Assets/Images/Foto\ Banner\ 5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+
+
+
+.bannerQuienesSomos{
+    background-image: url(../Assets/Images/Foto\ Banner\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+
+.bannerServicios{
+    background-image: url(../Assets/Images/Foto\ Banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+
+.bannerPreguntasFrecuentes{
+    background-image: url(../Assets/Images/Foto\ Banner\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+
+.bannerContacto{
+    background-image: url(../Assets/Images/Foto\ Banner\ 4...jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+
+}
+
+.imagenLogoS{
+    width: 280px;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 750px;
+
+}
+
+.imagenLaboratorioExt{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+.imgPequena{
+    width: 300px;
+    height: 200px;
+    
+}
+
+.imagenBioquimicos{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+
+.cabecera{
+    background-color: #b3e5fc9c;
+    color: #b3e5fc9c;
+    padding-left: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 10px;
+
+}
+
+.box{
+    background-color: aliceblue;
+
+    width: 800px;
+    height: 250px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.boxInicio{
+    background-color: aliceblue;
+    color: #ffffff;
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 3rem;
+    font-style: normal;
+    text-align: center;
+}
+.tituloBioRight{
+    color: #0288D1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.tituloBioLeft{
+    color: #0288D1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.textoBioRight{
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: right;
+    margin-right: 20px;
+}   
+
+.textoBioLeft{
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: left;
+    margin-left: 20px;
+}  
+.link {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: #0288D1;
+    font-size: 3rem;
+    margin-left: 20px;
+    padding: 1px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+    font-style: normal;
+    text-align: left;
+     
+
+}
+
+.fondoFooter{
+    background-color: #7575757e;
+}
+
+.linkContacto {
+    text-decoration: none;
+    background-color: #B3E5FC;
+    color: #0288D1;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    padding: 1px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1.4rem;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.linkBotones {
+    text-decoration: none;
+    background-color: #B3E5FC;
+    color: #0288D1;
+    width: 100px;
+    height: 40px;
+    font-size: 2.5rem;
+    margin-left: 20px;
+    padding: 1px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+    font-style: normal;
+    text-align: center;
+    border: 1px solid #212121;
+    
+
+}
+
+.box__fixed{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(47, 124, 155);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50px;
+
+}
+
+.parrafoBox{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: center;
+    margin-top: 5.5px;
+    padding: 6px;
+}
