@@ -48,7 +48,7 @@ h2{
 
 .textoFormulario{
     color: #0288D1;
-    background-color: #00bbd428;
+    background-color: #B3E5FC;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 2.6rem;
@@ -98,6 +98,16 @@ h2{
     background-size: cover;
     width: auto;
     height: 500px;
+    object-fit: cover;
+}
+
+.tarjetas{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    object-fit: cover;
 }
 
 
@@ -107,7 +117,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-    height: 500px;
+    height: 100px;
 }
 
 .bannerServicios{
@@ -189,21 +199,24 @@ h2{
 }
 
 .boxInicio{
-    background-color: aliceblue;
-    color: #ffffff;
-    width: 200px;
-    height: 200px;
+    background-color: #B3E5FC;
+    color: #0288D1;
+    width: 400px;
+    height: 150px;
     padding-top: 20px;
     padding-left: 20px;
-    border: 1px solid black;
+    border: 1px solid white
     border-radius: 8px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-bottom: 140px;
+    margin-top: 140px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 3rem;
     font-style: normal;
     text-align: center;
+    border-radius: 50px;
+   
 }
 .tituloBioRight{
     color: #0288D1;
@@ -312,6 +325,9 @@ h2{
 
 }
 
+
+
+
 .parrafoBox{
     color: aliceblue;
     font-size: 1.5rem;
@@ -320,3 +336,23 @@ h2{
     margin-top: 5.5px;
     padding: 6px;
 }
+
+.redesSociales{
+    font-size: 5rem;
+    justify-content: center;
+    color: #0288D1;
+    margin-left: 20px;
+
+}
+.iconosInicio{
+    font-size: 5rem;
+    justify-content: center;
+    color: #212121;
+    margin-left: 20px;
+
+}
+
+.pieDePagina {
+    background-color: #B3E5FC;
+}
+
