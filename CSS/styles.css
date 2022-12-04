@@ -24,7 +24,7 @@
 }
 
 .iconos {
-    color: #212121;
+    color: 
     
     font-size: 6rem;
     margin-left: 1rem;
@@ -47,7 +47,7 @@ h2{
 }
 
 .textoFormulario{
-    color: #0288D1;
+    color: #757575;
     background-color: #B3E5FC;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
@@ -174,8 +174,6 @@ h2{
 
 
 .cabecera{
-    background-color: #b3e5fc9c;
-    color: #b3e5fc9c;
     padding-left: 20px;
     text-align: center;
     position: sticky;
@@ -215,9 +213,9 @@ h2{
     font-size: 3rem;
     font-style: normal;
     text-align: center;
-    border-radius: 50px;
-   
+    border-radius: 50px;  
 }
+
 .tituloBioRight{
     color: #0288D1;
     font-family: 'Montserrat', sans-serif;
@@ -239,7 +237,7 @@ h2{
 }
 
 .textoBioRight{
-    color: #212121;
+    color: #757575;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 1.5rem;
