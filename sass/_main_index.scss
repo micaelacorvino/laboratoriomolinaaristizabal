@@ -1,0 +1,133 @@
+
+main{
+    .coverIndex{
+        height: map-get($sizes,$500);
+        color: $color-quinto
+        background-size: map-get($especificacion,$cubierto);
+        background-position: $centrado;
+        background-color: $backgroundcolor-main;
+        background-blend-mode: map-get($especificacion,$oscurecer);
+        font-family: $tipografia-general;
+        font-weight: map-get($fuentes,$regular);
+        font-size: map-get($rem,$unocuatro);
+        .titulo{
+            font-size: map-get($rem,$trescinco);
+            justify-content: $centrado;
+        }
+    }
+    .container 
+        .row
+            .col
+                .card
+                    .cover{
+                        height: 500px;
+                        
+                        color: #B3E5FC;
+                        background-size: cover;
+                        background-position: center;
+                        background-color: rgba(0, 0, 0, 0.7);
+                        background-blend-mode: darken;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 400;
+                        font-size: 1.4rem;
+                    }
+                    .coverSmallPrimera{
+                        height: map-get($sizes,$300);
+                        background-blend-mode: map-get($especificacion,$normal);
+                    
+                    }    
+
+                    .textoIndexPrimero{
+                        @include titulo;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$ceroocho);
+                        margin-top: map-get($rem,$uno);
+                        margin-bottom: map-get($rem,$dos);
+            
+                    }
+            .col 
+                .card
+                    .cover{
+                        height: 300px;
+                        
+                        color: #B3E5FC;
+                        background-size: cover;
+                        background-position: center;
+                        background-color: rgba(0, 0, 0, 0.7);
+                        background-blend-mode: darken;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 400;
+                        font-size: 1.4rem;
+                    }
+                    .coverSmallSegunda{
+                        @extend .coverSmallPrimera;
+                    
+                    }   
+                    .textoIndexSegundo{
+                        @include titulo;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$ceroocho);
+                        margin-top: map-get($rem,$uno);
+                        margin-bottom: map-get($rem,$dos);
+            
+                    }
+            .col 
+                .card
+                    .cover{
+                        height: 500px;
+                        
+                        color: #B3E5FC;
+                        background-size: cover;
+                        background-position: center;
+                        background-color: rgba(0, 0, 0, 0.7);
+                        background-blend-mode: darken;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 400;
+                        font-size: 1.4rem;
+                    }
+                    .coverSmallTercera{
+                        @extend .coverSmallPrimera;
+                        
+                    }   
+                    .textoIndexTercero{
+                        @include titulo;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$ceroocho);
+                        margin-top: map-get($rem,$uno);
+                        margin-bottom: map-get($rem,$dos);
+                
+                    }
+    .container
+        .row
+            .col
+                .textoCarrouselPrimero{
+                    font-family: $tipografia-general;
+                    font-weight: map-get($fuentes,$medium);
+                    font-size: map-get($rem,$dos);
+                    color: $color-segundo;
+                    text-align: $centrado;
+                }
+                .textoCarrouselSegundo{
+                    @extend .textoCarrouselPrimero;
+                }
+
+    .box__fixed{
+        width: map-get($sizes,$60);
+        height: map-get($sizes,$60);
+        background-color: $backgroundcolor-box;
+        position: map-get($especificacion,$fijo);
+        bottom: map-get($sizes,$10);
+        right: map-get($sizes,$10);
+        .iconoWhatsapp{
+            color: map-get($iconos,$faceinstagram);
+            font-size: map-get($rem,$dos);
+            margin-left: map-get($rem,$uno);
+            margin-right: map-get($rem,$ceroocho);
+            margin-top: map-get($rem,$ceroocho);
+                    
+                    
+        }
+
+    }
+        
+}

@@ -1,0 +1,67 @@
+main{
+    .coverContacto{
+    @extend .coverIndex;
+    background-image: url(../Assets/Images/rsz_foto_banner2.jpg);
+    .titulo{
+        font-size: map-get($rem,$trescinco);
+        justify-content: $centrado;
+    }
+    } 
+    .container
+        .row
+            .boxContacto{
+                widht: $ancho/2;
+                .iconoMensaje{
+                    color: map-get($iconos,$mensajeubicacion);
+                    font-size: map-get($rem,$tres);
+                    margin-left: map-get($rem,$uno);
+                    margin-right: map-get($rem,$ceroocho);
+                    margin-top: map-get($rem,$ceroocho);
+                   
+                }
+                .textoContacto{
+                    font-family: $tipografia-general;
+                    font-weight: map-get($fuentes,$medium);
+                    font-size: map-get($rem,$dos);
+                    color: $color-segundo;
+                    
+                }
+            }
+            .boxContacto{
+                widht: $ancho/2;
+                .iconoUbicacion{
+                    color: map-get($iconos,$mensajeubicacion);
+                    font-size: map-get($rem,$tres);
+                    margin-left: map-get($rem,$uno);
+                    margin-right: map-get($rem,$ceroocho);
+                    margin-top: map-get($rem,$ceroocho);
+                                     
+                }
+                .textoContacto{
+                    font-family: $tipografia-general;
+                    font-weight: map-get($fuentes,$medium);
+                    font-size: map-get($rem,$dos);
+                    color: $color-segundo;
+                    
+                }
+            } 
+
+    .box__fixed{
+        width: map-get($sizes,$60);
+        height: map-get($sizes,$60);
+        background-color: $backgroundcolor-box;
+        position: map-get($especificacion,$fijo);
+        bottom: map-get($sizes,$10);
+        right: map-get($sizes,$10);
+        .iconoWhatsapp{
+            color: map-get($iconos,$faceinstagram);
+            font-size: map-get($rem,$dos);
+            margin-left: map-get($rem,$uno);
+            margin-right: map-get($rem,$ceroocho);
+            margin-top: map-get($rem,$ceroocho);
+                                            
+                                            
+        }
+                        
+    }
+}

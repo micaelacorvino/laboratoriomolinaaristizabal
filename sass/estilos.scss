@@ -1,0 +1,1126 @@
+@import "variables";
+@import "reset";
+@import "mixins";
+@import "fonts";
+@import "header";
+@import "main_index";
+@import "main_quienes_somos";
+@import "main_servicios";
+@import "main_preguntas_frecuentes";
+@import "main_contacto";
+@import "footer";
+
+
+
+/*
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+header{
+    .nav
+        .textoHeader{
+            font-size: map-get($rem,$uno);
+            font-family:$tipografia-alternativa;
+            font-weight: map-get($fuentes,$bold);
+       
+        }
+}
+
+/*
+main{
+    .coverIndex{
+        height: map-get($sizes,$500);
+        color: $color-quinto
+        background-size: map-get($especificacion,$cubierto);
+        background-position: $centrado;
+        background-color: $backgroundcolor-main;
+        background-blend-mode: map-get($especificacion,$oscurecer);
+        font-family: $tipografia-general;
+        font-weight: map-get($fuentes,$regular);
+        font-size: map-get($rem,$unocuatro);
+        .titulo{
+            font-size: map-get($rem,$trescinco);
+            justify-content: $centrado;
+        }
+    }
+    .container 
+        .row
+            .col
+                .card
+                    .coverSmallPrimera{
+                        height: map-get($sizes,$300);
+                        background-blend-mode: map-get($especificacion,$normal);
+                    
+                    }    
+
+                    .textoIndexPrimero{
+                        @include titulo;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$ceroocho);
+                        margin-top: map-get($rem,$uno);
+                        margin-bottom: map-get($rem,$dos);
+            
+                    }
+            .col 
+                .card
+                    .coverSmallSegunda{
+                        @extend .coverSmallPrimera;
+                    
+                    }   
+                    .textoIndexSegundo{
+                        @include titulo;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$ceroocho);
+                        margin-top: map-get($rem,$uno);
+                        margin-bottom: map-get($rem,$dos);
+            
+                    }
+            .col 
+                .card
+                    .coverSmallTercera{
+                        @extend .coverSmallPrimera;
+                        
+                    }   
+                    .textoIndexTercero{
+                        @include titulo;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$ceroocho);
+                        margin-top: map-get($rem,$uno);
+                        margin-bottom: map-get($rem,$dos);
+                
+                    }
+    .container
+        .row
+            .col
+            .textoCarrouselPrimero{
+                font-family: $tipografia-general;
+                font-weight: map-get($fuentes,$medium);
+                font-size: map-get($rem,$dos);
+                color: $color-segundo;
+                text-align: $centrado;
+            }
+            .textoCarrouselSegundo{
+                @extend .textoCarrouselPrimero;
+            }
+
+    .box__fixed{
+    width: map-get($sizes,$60);
+    height: map-get($sizes,$60);
+    background-color: $backgroundcolor-box;
+    position: map-get($especificacion,$fijo);
+    bottom: map-get($sizes,$10);
+    right: map-get($sizes,$10);
+    }
+        .iconos{
+            color: map-get($iconos,$faceinstagram);
+            font-size: map-get($rem,$dos);
+            margin-left: map-get($rem,$uno);
+            margin-right: map-get($rem,$ceroocho);
+            margin-top: map-get($rem,$ceroocho);
+            
+            
+        }
+}*/
+/*
+footer{
+    .footer{
+        height: map-get($sizes,$350);
+        width: $ancho;
+        overflow: map-get($especificacion,$oculto);
+        background-color: $color-cuarto;
+        color: $color-quinto
+        background-size: map-get($especificacion,$cubierto);
+        background-position: $centrado;
+            
+    }
+    .container
+        .row
+            .col
+                .textoFooterUno{
+                    font-size: map-get($rem,$ceroocho);
+                }
+
+                .textoFooterDos{
+                    @extend .textoFooterUno;
+                }
+                .textoFooterTres{
+                    @extend .textoFooterUno;
+                }
+                .textoFooterCuatro{
+                    @extend .textoFooterUno;
+                }
+            .col
+                .textoFooterCinco{
+                    @extend .textoFooterUno;
+                }
+
+                .textoFooterSeis{
+                    @extend .textoFooterUno;
+                }
+                .textoFooterSiete{
+                    @extend .textoFooterUno;
+                }
+                .textoFooterOcho{
+                    @extend .textoFooterUno;
+                }
+    .tituloDerechosIconos{
+        height: map-get($sizes,$70);
+        width: $ancho;
+        overflow: map-get($especificacion,$oculto);
+        background-color: $color-cuarto;
+        background-size: map-get($especificacion,$cubierto);
+        background-position: $centrado;
+        font-family:$tipografia-alternativa;
+        font-weight: map-get($fuentes,$regular);
+        color: $color-quinto
+    }
+        .iconosInstagram{
+            color: map-get($iconos,$faceinstagram);
+            font-size: map-get($rem,$dos);
+            margin-left: map-get($rem,$uno);
+            margin-right: map-get($rem,$ceroocho);
+            margin-top: map-get($rem,$ceroocho);
+            
+            
+        }       
+        .iconosFacebook{
+            color: map-get($iconos,$faceinstagram);
+            font-size: map-get($rem,$dos);
+            margin-left: map-get($rem,$uno);
+            margin-right: map-get($rem,$ceroocho);
+            margin-top: map-get($rem,$ceroocho);
+            
+            
+        } 
+    .container
+        .row
+            .navbar
+                .textoFooterNav{
+                    @extend .textoHeader;
+                
+                }    
+
+}*/
+
+
+
+/*
+.coverIndex{
+    height: 500px;
+    background-image: url(../Assets/Images/rsz_bannerlaboratorio.jpg);
+    color: #B3E5FC;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}*/
+/*
+main{
+    .coverQuienes{
+        @extend .coverIndex;
+        background-image: url(../Assets/Images/imagenbanner-quienesomos.jpg);
+        .titulo{
+            font-size: map-get($rem,$trescinco);
+            justify-content: $centrado;
+        }
+    }
+    .div
+        .tituloQuienes{
+            font-family: $tipografia-general;
+            font-weight: map-get($fuentes$bold);
+            font-size: map-get($rem,$dos);
+            color: $color-tercero;
+            margin-top: map-get($rem,$cinco);
+            text-align: $centrado;
+            
+        }
+    .card
+        .slide-left
+            .row
+                .col
+                    .card-body
+                        .tituloCardl{
+                            @include titulo;
+                            font-weight: map-get($fuentes,$black);
+                            font-size: map-get($rem,$uno);
+                            margin-top: map-get($rem,$dos);
+                            .textoCard{
+                                font-family: $tipografia-general;
+                                font-weight: map-get($fuentes,$medium);
+                                font-size: map-get($rem,$uno);
+                                color: $color-tercero;
+                                margin-top: map-get($rem,$dos);
+                                text-align: $centrado;
+                            }
+                                                    
+                        }
+                        .textoCardSegunda{
+                            @extend .textoCard;
+                        }
+                .col
+                    .imagenUno{
+                        height: $ancho;
+                        width: $ancho;
+                        background-size: map-get($especificacion,$cubierto);
+                        background-position: $centrado;
+                        
+                    }    
+    .card
+        .slide-left
+            .row
+                .col
+                    .imagenDos{
+                        @extend .imagenUno;
+                    }   
+
+                .col
+                    .card-body
+                        .tituloCardlSegundo{
+                            @include titulo;
+                            font-weight: map-get($fuentes,$black);
+                            font-size: map-get($rem,$uno);
+                            margin-top: map-get($rem,$dos);
+                            
+                        
+                        }
+                        .textoCardSegundo{
+                            @extend .textoCard;
+                        }
+                        .textoCardTercero{
+                            @extend .textoCard;
+                        }
+    .card
+        .slide-left
+            .row
+                .col
+                    .card-body 
+                        .tituloCardlTercero{
+                            @include titulo;
+                            font-weight: map-get($fuentes,$black);
+                            font-size: map-get($rem,$uno);
+                            margin-top: map-get($rem,$dos);
+                            
+                        
+                        }
+                        
+                        .textoCardCuarto{
+                            @extend .textoCard;
+                        }
+
+                        .textoCardQuinto{
+                            @extend .textoCard;
+                        }
+    .box__fixed{
+        width: map-get($sizes,$60);
+        height: map-get($sizes,$60);
+        background-color: $backgroundcolor-box;
+        position: map-get($especificacion,$fijo);
+        bottom: map-get($sizes,$10);
+        right: map-get($sizes,$10);
+        .iconoWhatsapp{
+            color: map-get($iconos,$faceinstagram);
+            font-size: map-get($rem,$dos);
+            margin-left: map-get($rem,$uno);
+            margin-right: map-get($rem,$ceroocho);
+            margin-top: map-get($rem,$ceroocho);
+            
+            
+        }
+    }
+                                
+}
+
+
+/*
+.coverQuienes{
+    @extend .coverIndex;
+    background-image: url(../Assets/Images/imagenbanner-quienesomos.jpg);
+    
+}*/
+/*
+.coverSfoto{
+    height: 500px;
+    Color: #B3E5FC;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}*/
+
+
+*/
+/*
+.coverIndex{
+    height: 500px;
+    background-image: url(../Assets/Images/rsz_bannerlaboratorio.jpg);
+    color: #B3E5FC;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+/*.titulo{
+    font-size: 3.5rem;
+    justify-content: center;
+}*/
+
+
+
+
+/*
+.footer{
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #44bbc1;
+    color: white;
+    background-size: cover;
+    background-position: center
+        
+}+*/
+
+/*
+.textoFooter{
+    font-size: 0.85rem;
+}
+
+
+/*
+.box__fixed{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(47, 124, 155);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}*/
+
+
+/*
+.coverSmall{
+    height: map-get($sizes,$300);
+    background-blend-mode: map-get($especificacion,$normal);
+
+}*/
+
+
+/*
+.tituloQuienes{
+    font-family: $tipografia-general;
+    font-weight: map-get($fuentes$bold);
+    font-size: map-get($rem,$dos);
+    color: $color-tercero;
+    margin-top: map-get($rem,$cinco);
+    text-align: $centrado;
+    
+}*/
+
+
+/*
+.tituloDerechosIconos{
+    height: map-get($sizes,$70);
+    width: $ancho;
+    overflow: map-get($especificacion,$oculto);
+    background-color: $color-cuarto;
+    background-size: map-get($especificacion,$cubierto);
+    background-position: $centrado;
+    font-family:$tipografia-alternativa;
+    font-weight: map-get($fuentes,$regular);
+    color: $color-quinto
+}*/
+
+
+
+/*
+.textoHeader{
+    font-size: map-get($rem,$uno);
+    font-family:$tipografia-alternativa;
+    font-weight: map-get($fuentes,$bold);
+   
+}*/
+/*
+.textoFooterNav{
+    @extend .textoHeader;
+   
+}
+/*
+.iconos{
+    color: map-get($iconos,$faceinstagram);
+    font-size: map-get($rem,$dos);
+    margin-left: map-get($rem,$uno);
+    margin-right: map-get($rem,$ceroocho);
+    margin-top: map-get($rem,$ceroocho);
+     
+    
+}*/
+
+
+/*
+.textoCarrousel{
+    font-family: $tipografia-general;
+    font-weight: map-get($fuentes,$medium);
+    font-size: map-get($rem,$dos);
+    color: $color-segundo;
+    text-align: $centrado;
+}*/
+        
+
+/*
+.textoCard{
+    font-family: $tipografia-general;
+    font-weight: map-get($fuentes,$medium);
+    font-size: map-get($rem,$uno);
+    color: $color-tercero;
+    margin-top: map-get($rem,$dos);
+    text-align: $centrado;
+}*/
+
+
+/*
+.textoIndex{
+    @include titulo;
+    font-weight: map-get($fuentes,$bold);
+    font-size: map-get($rem,$ceroocho);
+    margin-top: map-get($rem,$uno);
+    margin-bottom: map-get($rem,$dos);
+    
+    
+}*/
+/*
+.tituloCardl{
+    @include titulo;
+    font-weight: map-get($fuentes,$black);
+    font-size: map-get($rem,$uno);
+    margin-top: map-get($rem,$dos);
+    
+
+}*/
+/*
+.imagenUno{
+    height: $ancho;
+    width: $ancho;
+    background-size: map-get($especificacion,$cubierto);
+    background-position: $centrado;
+    
+}*/
+
+/*
+main {
+    .coverServicios{
+        @extend .coverIndex;
+        background-image: url(../Assets/Images/rsz_foto_banner_5.jpg);
+        .titulo{
+            font-size: map-get($rem,$trescinco);
+            justify-content: $centrado;
+        }
+        
+    } 
+    .container
+        .row    
+            .col
+                .card   
+                .textoIndexCuarto{
+                    @include titulo;
+                    font-weight: map-get($fuentes,$bold);
+                    font-size: map-get($rem,$ceroocho);
+                    margin-top: map-get($rem,$uno);
+                    margin-bottom: map-get($rem,$dos);
+        
+                }
+                .altoTitulo{
+                    min-height: map-get($rem,$doscinco);
+                    font-size: map-get($rem,$unocuatro);
+                }
+                .textoCardSexta{
+                    @extend .textoCard;
+                }
+                .altoTexto{
+                    min-height: map-get($rem,$ocho);
+                }
+                .textoIndexQuinto{
+                    @include titulo;
+                    font-weight: map-get($fuentes,$bold);
+                    font-size: map-get($rem,$ceroocho);
+                    margin-top: map-get($rem,$uno);
+                    margin-bottom: map-get($rem,$dos);
+        
+                }
+                .altoTituloDos{
+                    @extend .altoTitulo;
+                }
+
+                .textoCardSeptima{
+                    @extend .textoCard;
+                }
+                .altoTextoDos{
+                    @extend .altoTextoDos;
+                }
+
+}
+*/
+
+
+
+
+
+/*
+.coverServicios{
+    @extend .coverIndex;
+    background-image: url(../Assets/Images/rsz_foto_banner_5.jpg);
+    
+    
+}*/
+
+/*
+h3{
+    font-size: map-get($rem,$unodos);
+}*/
+/*
+.altoTitulo{
+    min-height: map-get($rem,$doscinco);
+    font-size: map-get($rem,$unocuatro);
+}*/
+/*
+.altoTexto{
+    min-height: map-get($rem,$ocho);
+}*/
+
+/*
+main{
+    .coverPreguntas{
+        @extend .coverIndex;
+        background-image: url(../Assets/Images/rsz_1foto_banner_3.jpg);
+        
+    }
+    .container
+        .row
+            .col
+                .d-flex
+                    .iconoTubo{
+                        color: map-get($iconos,$tubo);
+                        font-size: map-get($rem,$unocinco);
+                        margin-left: map-get($rem,$uno);
+                        margin-right: map-get($rem,$ceroocho);
+                        margin-top: map-get($rem,$cerocinco);
+                        
+                    }
+                    .textoParrafoUno{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$dos);
+                        color: $color-tercero;
+                        margin-top: map-get($rem,$cinco);   
+                    }
+                    .textoPreguntas{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$dos);
+                        color: $color-tercero;
+                       
+                    }
+                    .textoParrafo{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$dos);
+                        color: $color-tercero;
+                        margin-top: map-get($rem,$cinco);  
+                        .textoTitulo{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,$bold);
+                            font-size: map-get($rem,$uno);
+                            color:$color-primero;
+                            margin-top: map-get($rem,$dos);
+                          
+                        }
+                        
+                        .textoPreguntas{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,$regular);
+                            font-size: map-get($rem,$uno);
+                            color: $color-primero;
+                            margin-top: map-get($rem,$dos);
+                            text-align: $izquierda;
+                            
+                        } 
+                        .textoTituloUno{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasUno{
+                            @extend .textoPreguntas;
+                        }
+                        .textoTituloDos{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasDos{
+                            @extend .textoPreguntas;
+                        }
+                    }
+    .container
+        .row
+            .col
+                 .d-flex
+                    .iconoTubo{
+                    color: map-get($iconos,$tubo);
+                    font-size: map-get($rem,$unocinco);
+                    margin-left: map-get($rem,$uno);
+                    margin-right: map-get($rem,$ceroocho);
+                    margin-top: map-get($rem,$cerocinco);
+                                    
+                    }
+                    .textoParrafoUno{
+                    font-family: $tipografia-general;
+                    font-weight: map-get($fuentes,$bold);
+                    font-size: map-get($rem,$dos);
+                    color: $color-tercero;
+                    margin-top: map-get($rem,$cinco);   
+                    }
+                    .textoPreguntas{
+                    font-family: $tipografia-general;
+                    font-weight: map-get($fuentes,$bold);
+                    font-size: map-get($rem,$dos);
+                    color: $color-tercero;
+                                   
+                    }
+                    .textoParrafo{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$dos);
+                        color: $color-tercero;
+                        margin-top: map-get($rem,$cinco);  
+                        .textoTitulo{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,$bold);
+                            font-size: map-get($rem,$uno);
+                            color:$color-primero;
+                            margin-top: map-get($rem,$dos);
+                                            
+                            }
+                                        
+                        .textoPreguntas{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,$regular);
+                            font-size: map-get($rem,$uno);
+                            color: $color-primero;
+                            margin-top: map-get($rem,$dos);
+                            text-align: $izquierda;
+                                            
+                        } 
+                        .textoTituloUno{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasUno{
+                            @extend .textoPreguntas;
+                        }
+                        .textoTituloDos{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasDos{
+                            @extend .textoPreguntas;
+                        }
+    }
+    .box__fixed{
+        width: map-get($sizes,$60);
+        height: map-get($sizes,$60);
+        background-color: $backgroundcolor-box;
+        position: map-get($especificacion,$fijo);
+        bottom: map-get($sizes,$10);
+        right: map-get($sizes,$10);
+        .iconoWhatsapp{
+        color: map-get($iconos,$faceinstagram);
+        font-size: map-get($rem,$dos);
+        margin-left: map-get($rem,$uno);
+        margin-right: map-get($rem,$ceroocho);
+        margin-top: map-get($rem,$ceroocho);
+                                        
+                                        
+        }
+                    
+    }         
+    .container
+        .row
+            .col
+                .d-flex
+                    .iconoTubo{
+                        color: map-get($iconos,$tubo);
+                        font-size: map-get($rem,$unocinco);
+                        margin-left: map-get($rem,$uno);
+                        margin-right: map-get($rem,$ceroocho);
+                        margin-top: map-get($rem,$cerocinco);
+                                                
+                    }
+                    .textoParrafoUno{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$dos);
+                        color: $color-tercero;
+                        margin-top: map-get($rem,$cinco);   
+                    }
+                    .textoPreguntas{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$dos);
+                        color: $color-tercero;
+                                               
+                    }
+                    .textoParrafo{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,$bold);
+                            font-size: map-get($rem,$dos);
+                            color: $color-tercero;
+                            margin-top: map-get($rem,$cinco);  
+                            .textoTitulo{
+                                font-family: $tipografia-general;
+                                font-weight: map-get($fuentes,$bold);
+                                font-size: map-get($rem,$uno);
+                                color:$color-primero;
+                                margin-top: map-get($rem,$dos);
+                                                        
+                            }
+                                                    
+                            .textoPreguntas{
+                                font-family: $tipografia-general;
+                                font-weight: map-get($fuentes,$regular);
+                                font-size: map-get($rem,$uno);
+                                color: $color-primero;
+                                margin-top: map-get($rem,$dos);
+                                text-align: $izquierda;
+                                                        
+                            } 
+                            .textoTituloUno{
+                                @extend .textoTitulo;
+                            }
+                            .textoPreguntasUno{
+                                @extend .textoPreguntas;
+                            }
+                            .textoTituloDos{
+                                @extend .textoTitulo;
+                            }
+                            .textoPreguntasDos{
+                                @extend .textoPreguntas;
+                            }
+                    }     
+                    
+    .container
+        .row
+            .col
+                .d-flex
+                    .iconoTubo{
+                        color: map-get($iconos,$tubo);
+                        font-size: map-get($rem,$unocinco);
+                        margin-left: map-get($rem,$uno);
+                        margin-right: map-get($rem,$ceroocho);
+                        margin-top: map-get($rem,$cerocinco);
+                                                            
+                    }
+                    .textoParrafoUno{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$dos);
+                        color: $color-tercero;
+                        margin-top: map-get($rem,$cinco);   
+                    }
+                    .textoPreguntas{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$dos);
+                        color: $color-tercero;
+                                                           
+                    }
+                    .textoParrafo{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$dos);
+                        color: $color-tercero;
+                        margin-top: map-get($rem,$cinco);  
+                        .textoTitulo{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,$bold);
+                            font-size: map-get($rem,$uno);
+                            color:$color-primero;
+                            margin-top: map-get($rem,$dos);
+                                                                    
+                        }
+                                                                
+                        .textoPreguntas{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,$regular);
+                            font-size: map-get($rem,$uno);
+                            color: $color-primero;
+                            margin-top: map-get($rem,$dos);
+                            text-align: $izquierda;
+                                                                    
+                        } 
+                        .textoTituloUno{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasUno{
+                            @extend .textoPreguntas;
+                        }
+                        .textoTituloDos{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasDos{
+                            @extend .textoPreguntas;
+                        }
+                    }       
+    .container
+        .row
+            .col
+                .d-flex
+                    .iconoTubo{
+                        color: map-get($iconos,$tubo);
+                        font-size: map-get($rem,$unocinco);
+                        margin-left: map-get($rem,$uno);
+                        margin-right: map-get($rem,$ceroocho);
+                        margin-top: map-get($rem,$cerocinco);
+                                                                        
+                    }
+                    .textoParrafoUno{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$dos);
+                        color: $color-tercero;
+                        margin-top: map-get($rem,$cinco);   
+                    }
+                    .textoPreguntas{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$dos);
+                        color: $color-tercero;
+                                                                       
+                    }
+                    .textoParrafo{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,$bold);
+                        font-size: map-get($rem,$dos);
+                        color: $color-tercero;
+                        margin-top: map-get($rem,$cinco);  
+                        .textoTitulo{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,$bold);
+                            font-size: map-get($rem,$uno);
+                            color:$color-primero;
+                            margin-top: map-get($rem,$dos);
+                                                                                
+                        }
+                                                                            
+                        .textoPreguntas{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,$regular);
+                            font-size: map-get($rem,$uno);
+                            color: $color-primero;
+                            margin-top: map-get($rem,$dos);
+                            text-align: $izquierda;
+                                                                                
+                        } 
+                        .textoTituloUno{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasUno{
+                            @extend .textoPreguntas;
+                        }
+                        .textoTituloDos{
+                             @extend .textoTitulo;
+                        }
+                        .textoPreguntasDos{
+                            @extend .textoPreguntas;
+                        }
+                    }                    
+
+}*/
+
+
+main{
+    .coverContacto{
+    @extend .coverIndex;
+    background-image: url(../Assets/Images/rsz_foto_banner2.jpg);
+    .titulo{
+        font-size: map-get($rem,$trescinco);
+        justify-content: $centrado;
+    }
+    } 
+    .container
+        .row
+            .boxContacto{
+                widht: $ancho/2;
+                .iconoMensaje{
+                    color: map-get($iconos,$mensajeubicacion);
+                    font-size: map-get($rem,$tres);
+                    margin-left: map-get($rem,$uno);
+                    margin-right: map-get($rem,$ceroocho);
+                    margin-top: map-get($rem,$ceroocho);
+                   
+                }
+                .textoContacto{
+                    font-family: $tipografia-general;
+                    font-weight: map-get($fuentes,$medium);
+                    font-size: map-get($rem,$dos);
+                    color: $color-segundo;
+                    
+                }
+            }
+            .boxContacto{
+                widht: $ancho/2;
+                .iconoUbicacion{
+                    color: map-get($iconos,$mensajeubicacion);
+                    font-size: map-get($rem,$tres);
+                    margin-left: map-get($rem,$uno);
+                    margin-right: map-get($rem,$ceroocho);
+                    margin-top: map-get($rem,$ceroocho);
+                   
+                }
+            }         
+
+}
+
+
+
+/*
+.coverContacto{
+    @extend .coverIndex;
+    background-image: url(../Assets/Images/rsz_foto_banner2.jpg);
+    
+}
+/*
+.coverPreguntas{
+    @extend .coverIndex;
+    background-image: url(../Assets/Images/rsz_1foto_banner_3.jpg);
+    
+}*/
+.cardTamano{
+    height: map-get($sizes,$500);
+    width: map-get($sizes,$500);
+}
+/*
+.textoParrafo{
+    font-family: $tipografia-general;
+    font-weight: map-get($fuentes,$bold);
+    font-size: map-get($rem,$dos);
+    color: $color-tercero;
+    margin-top: map-get($rem,$cinco);   
+}
+/*
+.textoPreguntas{
+    font-family: $tipografia-general;
+    font-weight: map-get($fuentes,$bold);
+    font-size: map-get($rem,$dos);
+    color: $color-tercero;
+   
+}*/
+/*
+.textoTitulo{
+    font-family: $tipografia-general;
+    font-weight: map-get($fuentes,$bold);
+    font-size: map-get($rem,$uno);
+    color:$color-primero;
+    margin-top: map-get($rem,$dos);
+  
+}
+
+.textoPreguntas{
+    font-family: $tipografia-general;
+    font-weight: map-get($fuentes,$regular);
+    font-size: map-get($rem,$uno);
+    color: $color-primero;
+    margin-top: map-get($rem,$dos);
+    text-align: $izquierda;
+    
+}*/
+
+.tituloFrecuentes{
+    font-family: $tipografia-general;
+    font-weight: map-get($fuentes,$regular);
+    font-size: map-get($rem,$uno);
+    color: $color-primero;
+}
+
+.card{
+    border: $border-cero;
+    box-shadow: $box-shadow-uno $color-card, $box-shadow-dos $segundo-color-card;
+}
+
+.tituloDerechos{
+    height: map-get($sizes,$70);
+    width: $ancho;
+    overflow: map-get($especificacion,$oculto);
+    background-color: $color-cuarto;
+    background-size: map-get($especificacion,$cubierto);
+    background-position: $centrado;
+    font-family:$tipografia-alternativa;
+    font-weight: map-get($fuentes,$regular);
+    color: $color-quinto
+}
+/*
+.iconoMensaje{
+    color: map-get($iconos,$mensajeubicacion);
+    font-size: map-get($rem,$tres);
+    margin-left: map-get($rem,$uno);
+    margin-right: map-get($rem,$ceroocho);
+    margin-top: map-get($rem,$ceroocho);
+   
+}*/
+/*
+.iconoUbicacion{
+    color: map-get($iconos,$mensajeubicacion);
+    font-size: map-get($rem,$tres);
+    margin-left: map-get($rem,$uno);
+    margin-right: map-get($rem,$ceroocho);
+    margin-top: map-get($rem,$ceroocho);
+   
+}*/
+
+.iconoTubo{
+    color: map-get($iconos,$tubo);
+    font-size: map-get($rem,$unocinco);
+    margin-left: map-get($rem,$uno);
+    margin-right: map-get($rem,$ceroocho);
+    margin-top: map-get($rem,$cerocinco);
+     
+}
+
+.carrousel{
+    height: map-get($sizes,$200);
+}
+
+.cabecera{
+    background-color: $color-quinto
+    padding-left: map-get($sizes,$20);
+    text-align: $centrado;
+    position: map-get($especificacion,$pegajoso);
+    z-index: map-get($sizes,$10);
+}
+
+.card-horizontal {
+    display: map-get($card-horizontal,$display);
+    flex: map-get($card-horizontal,$flex);
+}
+
+.imageBanner{
+    width: $ancho;
+}
+/*
+.textoContacto{
+    font-family: $tipografia-general;
+    font-weight: map-get($fuentes,$medium);
+    font-size: map-get($rem,$dos);
+    color: $color-segundo;
+    
+}
+/*
+.boxContacto{
+    widht: $ancho/2;
+}

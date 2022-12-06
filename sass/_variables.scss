@@ -1,0 +1,87 @@
+
+$color-primero: #0288D1;
+$color-segundo: #0b537a;
+$color-tercero: #5c5c5c;
+$color-cuarto: #44bbc1;
+$color-quinto: white;
+$color-sexto: black;
+
+$backgroundcolor-main: rgba(0, 0, 0, 0.7);
+$backgroundcolor-box: rgb(47, 124, 155);
+
+$color-card: rgba(0, 0, 0, 0.1);
+$segundo-color-card: rgba(0, 0, 0, 0.06);
+
+$box-shadow-uno: 0 4px 6px -1px;
+$box-shadow-dos: 0 2px 4px -1px;
+$border-cero: 0 !important;
+$margin: 0;
+
+
+$ancho: 100%;
+
+$tipografia-general: 'Montserrat', sans-serif;
+$tipografia-alternativa: 'Mulish', sans-serif;
+
+
+/*maps*/
+
+$especificacion:(
+    oscurecer:darken,
+    oculto:hidden,
+    cubierto:cover,
+    centrado:center,
+    izquierda:start,
+    fijo:fixed,
+    normal:normal,
+    pegajoso:sticky,  
+)
+
+
+$iconos:(
+    faceinstagram: white,
+    mensajeubicacion: #0288D1,
+    tubo: #0b537a,
+)
+
+$fuentes:(
+    thin:100,
+    light:300,
+    regular:400,
+    medium:600,
+    bold:700,
+    black:800;
+    
+)
+
+$sizes:(
+    10:10px,
+    20:20px,
+    60:60px,
+    70:70px, 
+    200:200px,
+    300:300px,
+    350:350px,
+    500:500px,
+)
+
+$card-horizontal:(
+    display:flex,
+    flex:1 1 auto,
+
+)
+
+$rem: (
+    cerocinco:0.5rem,
+    ceroocho:0.8rem,
+    uno:1rem,
+    unodos:1.2rem,
+    unocuatro:1.4rem,
+    dos:2rem,
+    doscinco:2.5rem,
+    tres:3rem,
+    trescinco:3.5rem,
+    cinco:5rem,
+    ocho:8rem,
+)
+    

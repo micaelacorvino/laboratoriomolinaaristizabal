@@ -1,0 +1,10 @@
+
+header{
+    .nav
+        .textoHeader{
+            font-size: map-get($rem,$uno);
+            font-family:$tipografia-alternativa;
+            font-weight: map-get($fuentes,$bold);
+       
+        }
+}
