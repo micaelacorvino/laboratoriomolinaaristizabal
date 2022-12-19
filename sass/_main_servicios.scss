@@ -4,7 +4,7 @@ main {
         @extend .coverIndex;
         background-image: url(../Assets/Images/rsz_foto_banner_5.jpg);
         .titulo{
-            font-size: map-get($rem,$trescinco);
+            font-size: map-get($rem,trescinco);
             justify-content: $centrado;
         }
         
@@ -15,141 +15,141 @@ main {
                 .card   
                     .textoIndex{
                         @include titulo;
-                        font-weight: map-get($fuentes,$bold);
-                        font-size: map-get($rem,$ceroocho);
-                        margin-top: map-get($rem,$uno);
-                        margin-bottom: map-get($rem,$dos);
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,ceroocho);
+                        margin-top: map-get($rem,uno);
+                        margin-bottom: map-get($rem,dos);
             
                     }
                     .altoTitulo{
-                        min-height: map-get($rem,$doscinco);
-                        font-size: map-get($rem,$unocuatro);
+                        min-height: map-get($rem,doscinco);
+                        font-size: map-get($rem,unocuatro);
                     }
             .col
                 .card   
                     .textoIndex{
                         @include titulo;
-                        font-weight: map-get($fuentes,$bold);
-                        font-size: map-get($rem,$ceroocho);
-                        margin-top: map-get($rem,$uno);
-                        margin-bottom: map-get($rem,$dos);
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,ceroocho);
+                        margin-top: map-get($rem,uno);
+                        margin-bottom: map-get($rem,dos);
             
                     }
                     .altoTitulo{
-                        min-height: map-get($rem,$doscinco);
-                        font-size: map-get($rem,$unocuatro);
+                        min-height: map-get($rem,doscinco);
+                        font-size: map-get($rem,unocuatro);
                     }
             .col
                 .card   
                     .textoIndex{
                         @include titulo;
-                        font-weight: map-get($fuentes,$bold);
-                        font-size: map-get($rem,$ceroocho);
-                        margin-top: map-get($rem,$uno);
-                        margin-bottom: map-get($rem,$dos);
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,ceroocho);
+                        margin-top: map-get($rem,uno);
+                        margin-bottom: map-get($rem,dos);
             
                     }
                     .altoTitulo{
-                        min-height: map-get($rem,$doscinco);
-                        font-size: map-get($rem,$unocuatro);
+                        min-height: map-get($rem,doscinco);
+                        font-size: map-get($rem,unocuatro);
                     }
             .col
                 .card   
                     .textoIndex{
                         @include titulo;
-                        font-weight: map-get($fuentes,$bold);
-                        font-size: map-get($rem,$ceroocho);
-                        margin-top: map-get($rem,$uno);
-                        margin-bottom: map-get($rem,$dos);
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,ceroocho);
+                        margin-top: map-get($rem,uno);
+                        margin-bottom: map-get($rem,dos);
             
                     }
                     .altoTitulo{
-                        min-height: map-get($rem,$doscinco);
-                        font-size: map-get($rem,$unocuatro);
+                        min-height: map-get($rem,doscinco);
+                        font-size: map-get($rem,unocuatro);
                     }
             .col
                 .card   
                     .textoIndex{
                         @include titulo;
-                        font-weight: map-get($fuentes,$bold);
-                        font-size: map-get($rem,$ceroocho);
-                        margin-top: map-get($rem,$uno);
-                        margin-bottom: map-get($rem,$dos);
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,ceroocho);
+                        margin-top: map-get($rem,uno);
+                        margin-bottom: map-get($rem,dos);
             
                     }
                     .altoTitulo{
-                        min-height: map-get($rem,$doscinco);
-                        font-size: map-get($rem,$unocuatro);
+                        min-height: map-get($rem,doscinco);
+                        font-size: map-get($rem,unocuatro);
                     }
             .col
                 .card   
                     .textoIndex{
                         @include titulo;
-                        font-weight: map-get($fuentes,$bold);
-                        font-size: map-get($rem,$ceroocho);
-                        margin-top: map-get($rem,$uno);
-                        margin-bottom: map-get($rem,$dos);
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,ceroocho);
+                        margin-top: map-get($rem,uno);
+                        margin-bottom: map-get($rem,dos);
             
                     }
                     .altoTitulo{
-                        min-height: map-get($rem,$doscinco);
-                        font-size: map-get($rem,$unocuatro);
+                        min-height: map-get($rem,doscinco);
+                        font-size: map-get($rem,unocuatro);
                     }
             .col
                 .card   
                     .textoIndex{
                         @include titulo;
-                        font-weight: map-get($fuentes,$bold);
-                        font-size: map-get($rem,$ceroocho);
-                        margin-top: map-get($rem,$uno);
-                        margin-bottom: map-get($rem,$dos);
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,ceroocho);
+                        margin-top: map-get($rem,uno);
+                        margin-bottom: map-get($rem,dos);
                 
                     }
                     .altoTitulo{
-                        min-height: map-get($rem,$doscinco);
-                        font-size: map-get($rem,$unocuatro);
+                        min-height: map-get($rem,doscinco);
+                        font-size: map-get($rem,unocuatro);
                     }
             .col
                 .card   
                     .textoIndex{
                         @include titulo;
-                        font-weight: map-get($fuentes,$bold);
-                        font-size: map-get($rem,$ceroocho);
-                        margin-top: map-get($rem,$uno);
-                        margin-bottom: map-get($rem,$dos);
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,ceroocho);
+                        margin-top: map-get($rem,uno);
+                        margin-bottom: map-get($rem,dos);
                 
                     }
                     .altoTitulo{
-                        min-height: map-get($rem,$doscinco);
-                        font-size: map-get($rem,$unocuatro);
+                        min-height: map-get($rem,doscinco);
+                        font-size: map-get($rem,unocuatro);
                     }
             .col
                 .card   
                     .textoIndex{
                         @include titulo;
-                        font-weight: map-get($fuentes,$bold);
-                        font-size: map-get($rem,$ceroocho);
-                        margin-top: map-get($rem,$uno);
-                        margin-bottom: map-get($rem,$dos);
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,ceroocho);
+                        margin-top: map-get($rem,uno);
+                        margin-bottom: map-get($rem,dos);
                 
                     }
                     .altoTitulo{
-                        min-height: map-get($rem,$doscinco);
-                        font-size: map-get($rem,$unocuatro);
+                        min-height: map-get($rem,doscinco);
+                        font-size: map-get($rem,unocuatro);
                     }
     .box__fixed{
-        width: map-get($sizes,$60);
-        height: map-get($sizes,$60);
+        width: map-get($sizes,60);
+        height: map-get($sizes,60);
         background-color: $backgroundcolor-box;
-        position: map-get($especificacion,$fijo);
-        bottom: map-get($sizes,$10);
-        right: map-get($sizes,$10);
+        position: map-get($especificacion,fijo);
+        bottom: map-get($sizes,10);
+        right: map-get($sizes,10);
         .iconoWhatsapp{
-            color: map-get($iconos,$faceinstagram);
-            font-size: map-get($rem,$dos);
-            margin-left: map-get($rem,$uno);
-            margin-right: map-get($rem,$ceroocho);
-            margin-top: map-get($rem,$ceroocho);
+            color: map-get($iconos,faceinstagram);
+            font-size: map-get($rem,dos);
+            margin-left: map-get($rem,uno);
+            margin-right: map-get($rem,ceroocho);
+            margin-top: map-get($rem,ceroocho);
                             
                             
         }

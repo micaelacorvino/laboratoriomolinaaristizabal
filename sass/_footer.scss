@@ -52,20 +52,20 @@ footer{
         color: $color-quinto
     }
         .iconosInstagram{
-            color: map-get($iconos,$faceinstagram);
-            font-size: map-get($rem,$dos);
-            margin-left: map-get($rem,$uno);
-            margin-right: map-get($rem,$ceroocho);
-            margin-top: map-get($rem,$ceroocho);
+            color: map-get($iconos,faceinstagram);
+            font-size: map-get($rem,dos);
+            margin-left: map-get($rem,uno);
+            margin-right: map-get($rem,ceroocho);
+            margin-top: map-get($rem,ceroocho);
             
             
         }       
         .iconosFacebook{
-            color: map-get($iconos,$faceinstagram);
-            font-size: map-get($rem,$dos);
-            margin-left: map-get($rem,$uno);
-            margin-right: map-get($rem,$ceroocho);
-            margin-top: map-get($rem,$ceroocho);
+            color: map-get($iconos,faceinstagram);
+            font-size: map-get($rem,dos);
+            margin-left: map-get($rem,uno);
+            margin-right: map-get($rem,ceroocho);
+            margin-top: map-get($rem,ceroocho);
             
             
         } 

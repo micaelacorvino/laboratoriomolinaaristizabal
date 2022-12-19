@@ -4,36 +4,37 @@ main{
         @extend .coverIndex;
         background-image: url(../Assets/Images/imagenbanner-quienesomos.jpg);
         .titulo{
-            font-size: map-get($rem,$trescinco);
+            font-size: map-get($rem,trescinco);
             justify-content: $centrado;
         }
     }
-    .div
+    .div{
         .tituloQuienes{
             font-family: $tipografia-general;
-            font-weight: map-get($fuentes$bold);
-            font-size: map-get($rem,$dos);
+            font-weight: map-get($fuentesbold);
+            font-size: map-get($rem,dos);
             color: $color-tercero;
-            margin-top: map-get($rem,$cinco);
+            margin-top: map-get($rem,cinco);
             text-align: $centrado;
             
         }
-    .card
-        .slide-left
-            .row
-                .col
-                    .card-body
+    }
+    .card{
+        .slide-left{
+            .row{
+                .col{
+                    .card-body{
                         .tituloCardl{
                             @include titulo;
-                            font-weight: map-get($fuentes,$black);
-                            font-size: map-get($rem,$uno);
-                            margin-top: map-get($rem,$dos);
+                            font-weight: map-get($fuentes,boldxl);
+                            font-size: map-get($rem,uno);
+                            margin-top: map-get($rem,dos);
                             .textoCard{
                                 font-family: $tipografia-general;
-                                font-weight: map-get($fuentes,$medium);
-                                font-size: map-get($rem,$uno);
+                                font-weight: map-get($fuentes,medium);
+                                font-size: map-get($rem,uno);
                                 color: $color-tercero;
-                                margin-top: map-get($rem,$dos);
+                                margin-top: map-get($rem,dos);
                                 text-align: $centrado;
                             }
                                                     
@@ -41,14 +42,21 @@ main{
                         .textoCardSegunda{
                             @extend .textoCard;
                         }
-                .col
-                    .imagenUno{
+                    }  
+                }   
+                .col{
+                    .imagenCard{
                         height: $ancho;
                         width: $ancho;
-                        background-size: map-get($especificacion,$cubierto);
+                        background-size: map-get($especificacion,cubierto);
                         background-position: $centrado;
                         
-                    }    
+                    }  
+                }
+            }        
+
+        }
+    } 
     .card
         .slide-left
             .row
@@ -61,9 +69,9 @@ main{
                     .card-body
                         .tituloCardlSegundo{
                             @include titulo;
-                            font-weight: map-get($fuentes,$black);
-                            font-size: map-get($rem,$uno);
-                            margin-top: map-get($rem,$dos);
+                            font-weight: map-get($fuentes,boldxl);
+                            font-size: map-get($rem,uno);
+                            margin-top: map-get($rem,dos);
                             
                         
                         }
@@ -80,9 +88,9 @@ main{
                     .card-body 
                         .tituloCardlTercero{
                             @include titulo;
-                            font-weight: map-get($fuentes,$black);
-                            font-size: map-get($rem,$uno);
-                            margin-top: map-get($rem,$dos);
+                            font-weight: map-get($fuentes,boldxl);
+                            font-size: map-get($rem,uno);
+                            margin-top: map-get($rem,dos);
                             
                         
                         }
@@ -95,18 +103,18 @@ main{
                             @extend .textoCard;
                         }
     .box__fixed{
-        width: map-get($sizes,$60);
-        height: map-get($sizes,$60);
+        width: map-get($sizes,60);
+        height: map-get($sizes,60);
         background-color: $backgroundcolor-box;
-        position: map-get($especificacion,$fijo);
-        bottom: map-get($sizes,$10);
-        right: map-get($sizes,$10);
+        position: map-get($especificacion,fijo);
+        bottom: map-get($sizes,10);
+        right: map-get($sizes,10);
         .iconoWhatsapp{
-            color: map-get($iconos,$faceinstagram);
-            font-size: map-get($rem,$dos);
-            margin-left: map-get($rem,$uno);
-            margin-right: map-get($rem,$ceroocho);
-            margin-top: map-get($rem,$ceroocho);
+            color: map-get($iconos,faceinstagram);
+            font-size: map-get($rem,dos);
+            margin-left: map-get($rem,uno);
+            margin-right: map-get($rem,ceroocho);
+            margin-top: map-get($rem,ceroocho);
             
             
         }

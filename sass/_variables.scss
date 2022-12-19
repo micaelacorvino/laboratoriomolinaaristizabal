@@ -33,16 +33,16 @@ $especificacion:(
     centrado:center,
     izquierda:start,
     fijo:fixed,
-    normal:normal,
+    normalidad:normal,
     pegajoso:sticky,  
-)
+);
 
 
 $iconos:(
     faceinstagram: white,
     mensajeubicacion: #0288D1,
     tubo: #0b537a,
-)
+);
 
 $fuentes:(
     thin:100,
@@ -50,9 +50,9 @@ $fuentes:(
     regular:400,
     medium:600,
     bold:700,
-    black:800;
+    boldxl:800;
     
-)
+);
 
 $sizes:(
     10:10px,
@@ -63,13 +63,13 @@ $sizes:(
     300:300px,
     350:350px,
     500:500px,
-)
+);
 
 $card-horizontal:(
     display:flex,
     flex:1 1 auto,
 
-)
+);
 
 $rem: (
     cerocinco:0.5rem,
@@ -83,5 +83,5 @@ $rem: (
     trescinco:3.5rem,
     cinco:5rem,
     ocho:8rem,
-)
+);
     
