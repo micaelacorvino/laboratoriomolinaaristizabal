@@ -2,7 +2,7 @@
 main {
     .coverServicios{
         @extend .coverIndex;
-        background-image: url(../Assets/Images/rsz_foto_banner_5.jpg);
+        background-image: url(../assets/images/rsz_foto_banner_5.jpg);
         .titulo{
             font-size: map-get($rem,trescinco);
             justify-content: $centrado;

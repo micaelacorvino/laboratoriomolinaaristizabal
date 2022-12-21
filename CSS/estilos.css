@@ -71,7 +71,7 @@ body {
 header
 main .coverIndex {
   height: 500px;
-  background-image: url(../Assets/Images/rsz_bannerlaboratorio.jpg);
+  background-image: url(../assets/images/rsz_bannerlaboratorio.jpg);
   color: #B3E5FC;
   background-size: cover;
   background-position: center;
@@ -120,7 +120,7 @@ footer .textoFooter {
 
 .coverIndex {
   height: 500px;
-  background-image: url(../Assets/Images/rsz_bannerlaboratorio.jpg);
+  background-image: url(../assets/images/rsz_bannerlaboratorio.jpg);
   color: #B3E5FC;
   background-size: cover;
   background-position: center;
@@ -132,7 +132,7 @@ footer .textoFooter {
 
 .coverQuienes {
   height: 500px;
-  background-image: url(../Assets/Images/imagenbanner-quienesomos.jpg);
+  background-image: url(../assets/images/imagenbanner-quienesomos.jpg);
   color: #B3E5FC;
   background-size: cover;
   background-position: center;
@@ -155,7 +155,7 @@ footer .textoFooter {
 
 .coverContacto {
   height: 500px;
-  background-image: url(../Assets/Images/rsz_foto_banner2.jpg);
+  background-image: url(../assets/images/rsz_foto_banner2.jpg);
   color: #B3E5FC;
   background-size: cover;
   background-position: center;
@@ -167,7 +167,7 @@ footer .textoFooter {
 
 .coverPreguntas {
   height: 500px;
-  background-image: url(../Assets/Images/rsz_1foto_banner_3.jpg);
+  background-image: url(../assets/images/rsz_1foto_banner_3.jpg);
   color: #B3E5FC;
   background-size: cover;
   background-position: center;
@@ -179,7 +179,7 @@ footer .textoFooter {
 
 .coverServicios {
   height: 500px;
-  background-image: url(../Assets/Images/rsz_foto_banner_5.jpg);
+  background-image: url(../assets/images/rsz_foto_banner_5.jpg);
   color: #B3E5FC;
   background-size: cover;
   background-position: center;

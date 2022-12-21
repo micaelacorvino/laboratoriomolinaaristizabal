@@ -2,7 +2,7 @@
 main{
     .coverQuienes{
         @extend .coverIndex;
-        background-image: url(../Assets/Images/imagenbanner-quienesomos.jpg);
+        background-image: url(../assets/images/imagenbanner-quienesomos.jpg);
         .titulo{
             font-size: map-get($rem,trescinco);
             justify-content: $centrado;

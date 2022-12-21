@@ -1,7 +1,7 @@
 main{
     .coverContacto{
     @extend .coverIndex;
-    background-image: url(../Assets/Images/rsz_foto_banner2.jpg);
+    background-image: url(../assets/images/rsz_foto_banner2.jpg);
     
         .titulo{
             font-size: map-get($rem,trescinco);

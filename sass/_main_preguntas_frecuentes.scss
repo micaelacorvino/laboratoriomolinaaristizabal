@@ -2,7 +2,7 @@
 main{
     .coverPreguntas{
         @extend .coverIndex;
-        background-image: url(../Assets/Images/rsz_1foto_banner_3.jpg);
+        background-image: url(../assets/images/rsz_1foto_banner_3.jpg);
         .titulo{
             font-size: map-get($rem,trescinco);
             justify-content: $centrado;
