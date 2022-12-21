@@ -2,10 +2,12 @@ main{
     .coverContacto{
     @extend .coverIndex;
     background-image: url(../Assets/Images/rsz_foto_banner2.jpg);
-    .titulo{
-        font-size: map-get($rem,trescinco);
-        justify-content: $centrado;
-    }
+    
+        .titulo{
+            font-size: map-get($rem,trescinco);
+            justify-content: map-get($especificacion,centrado);
+        }
+    
     } 
     .container
         .row
@@ -45,6 +47,7 @@ main{
                     
                 }
             } 
+            
 
     .box__fixed{
         width: map-get($sizes,60);

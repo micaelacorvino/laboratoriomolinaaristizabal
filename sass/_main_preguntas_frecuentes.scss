@@ -133,7 +133,198 @@ main{
                         .textoPreguntasDos{
                             @extend .textoPreguntas;
                         }
-    }
+                    }
+    .container
+        .row
+            .col
+                .d-flex
+                    .iconoTubo{
+                    color: map-get($iconos,tubo);
+                    font-size: map-get($rem,unocinco);
+                    margin-left: map-get($rem,uno);
+                    margin-right: map-get($rem,ceroocho);
+                    margin-top: map-get($rem,cerocinco);
+                                    
+                    }
+                    .textoParrafoUno{
+                    font-family: $tipografia-general;
+                    font-weight: map-get($fuentes,bold);
+                    font-size: map-get($rem,dos);
+                    color: $color-tercero;
+                    margin-top: map-get($rem,cinco);   
+                    }
+                    .textoPreguntas{
+                    font-family: $tipografia-general;
+                    font-weight: map-get($fuentes,bold);
+                    font-size: map-get($rem,dos);
+                    color: $color-tercero;
+                                
+                    }
+                    .textoParrafo{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,dos);
+                        color: $color-tercero;
+                        margin-top: map-get($rem,cinco);  
+                        .textoTitulo{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,bold);
+                            font-size: map-get($rem,uno);
+                            color:$color-primero;
+                            margin-top: map-get($rem,dos);
+                                            
+                            }
+                                        
+                        .textoPreguntas{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,regular);
+                            font-size: map-get($rem,uno);
+                            color: $color-primero;
+                            margin-top: map-get($rem,dos);
+                            text-align: $izquierda;
+                                            
+                        } 
+                        .textoTituloUno{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasUno{
+                            @extend .textoPreguntas;
+                        }
+                        .textoTituloDos{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasDos{
+                            @extend .textoPreguntas;
+                        }
+                    }
+
+    .container
+        .row
+            .col
+                .d-flex
+                    .iconoTubo{
+                    color: map-get($iconos,tubo);
+                    font-size: map-get($rem,unocinco);
+                    margin-left: map-get($rem,uno);
+                    margin-right: map-get($rem,ceroocho);
+                    margin-top: map-get($rem,cerocinco);
+                                    
+                    }
+                    .textoParrafoUno{
+                    font-family: $tipografia-general;
+                    font-weight: map-get($fuentes,bold);
+                    font-size: map-get($rem,dos);
+                    color: $color-tercero;
+                    margin-top: map-get($rem,cinco);   
+                    }
+                    .textoPreguntas{
+                    font-family: $tipografia-general;
+                    font-weight: map-get($fuentes,bold);
+                    font-size: map-get($rem,dos);
+                    color: $color-tercero;
+                                
+                    }
+                    .textoParrafo{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,dos);
+                        color: $color-tercero;
+                        margin-top: map-get($rem,cinco);  
+                        .textoTitulo{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,bold);
+                            font-size: map-get($rem,uno);
+                            color:$color-primero;
+                            margin-top: map-get($rem,dos);
+                                            
+                            }
+                                        
+                        .textoPreguntas{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,regular);
+                            font-size: map-get($rem,uno);
+                            color: $color-primero;
+                            margin-top: map-get($rem,dos);
+                            text-align: $izquierda;
+                                            
+                        } 
+                        .textoTituloUno{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasUno{
+                            @extend .textoPreguntas;
+                        }
+                        .textoTituloDos{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasDos{
+                            @extend .textoPreguntas;
+                        }
+                    }         
+    .container
+        .row
+            .col
+                .d-flex
+                    .iconoTubo{
+                        color: map-get($iconos,tubo);
+                        font-size: map-get($rem,unocinco);
+                        margin-left: map-get($rem,uno);
+                        margin-right: map-get($rem,ceroocho);
+                        margin-top: map-get($rem,cerocinco);
+                                    
+                    }
+                    .textoParrafoUno{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,dos);
+                        color: $color-tercero;
+                        margin-top: map-get($rem,cinco);   
+                    }
+                    .textoPreguntas{
+                    font-family: $tipografia-general;
+                    font-weight: map-get($fuentes,bold);
+                    font-size: map-get($rem,dos);
+                    color: $color-tercero;
+                                   
+                    }
+                    .textoParrafo{
+                        font-family: $tipografia-general;
+                        font-weight: map-get($fuentes,bold);
+                        font-size: map-get($rem,dos);
+                        color: $color-tercero;
+                        margin-top: map-get($rem,cinco);  
+                        .textoTitulo{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,bold);
+                            font-size: map-get($rem,uno);
+                            color:$color-primero;
+                            margin-top: map-get($rem,dos);
+                                      
+                        }
+                                    
+                        .textoPreguntas{
+                            font-family: $tipografia-general;
+                            font-weight: map-get($fuentes,regular);
+                            font-size: map-get($rem,uno);
+                            color: $color-primero;
+                            margin-top: map-get($rem,dos);
+                            text-align: $izquierda;
+                                        
+                        } 
+                        .textoTituloUno{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasUno{
+                            @extend .textoPreguntas;
+                        }
+                        .textoTituloDos{
+                            @extend .textoTitulo;
+                        }
+                        .textoPreguntasDos{
+                            @extend .textoPreguntas;
+                        }
+                    }       
+
     .box__fixed{
         width: map-get($sizes,60);
         height: map-get($sizes,60);
@@ -152,3 +343,4 @@ main{
         }
                     
     }
+}

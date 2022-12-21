@@ -4,15 +4,17 @@ main{
         height: map-get($sizes,500);
         color: $color-quinto
         background-size: map-get($especificacion,cubierto);
-        background-position: $centrado;
+        background-position: map-get($especificacion,centrado);
         background-color: $backgroundcolor-main;
         background-blend-mode: map-get($especificacion,oscurecer);
         font-family: $tipografia-general;
         font-weight: map-get($fuentes,regular);
         font-size: map-get($rem,unocuatro);
+        
+        
         .titulo{
             font-size: map-get($rem,trescinco);
-            justify-content: $centrado;
+            justify-content: map-get($especificacion,centrado);
         }
     }
     .container 
@@ -131,6 +133,5 @@ main{
                                                         
         }
                                     
-    }
-        
+    }       
 }
